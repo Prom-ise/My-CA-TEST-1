@@ -100,3 +100,7 @@ body{
         display: block;
     }
 }
+
+#navbarSupportedContent{
+    margin-left: 100px;
+}
