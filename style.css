@@ -20,6 +20,9 @@ body{
 a{
     text-decoration: none;
 }
+.blue{
+    color: #33396f;
+}
 .button1{
     border-radius: 4px;
     padding: 0.8rem 1rem;
