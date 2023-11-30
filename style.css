@@ -41,6 +41,17 @@ body{
     background-color: #fe9a03;
 }
 
+.bigButton1 {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+}
+.bigButton1:hover{
+    background-color: #0e0a47;
+}
+
+
 .edozzierContainer2{
     margin-top: 100px;
     background-color: #e5ebfb;
