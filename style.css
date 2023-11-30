@@ -2,7 +2,10 @@ body{
     overflow-x: hidden;
 }
 
-
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 .edozzierContainer{
    background-image: linear-gradient(
     to left, 
@@ -12,6 +15,8 @@ body{
    
     padding-top: 130px;
    padding-bottom: 50px;
+   padding-left: 40px;
+    padding-right: 40px;
 }
 .edozHere{
     background-color: #d0d8fc;
@@ -60,6 +65,13 @@ body{
     background-color: #e5ebfb;
     padding-top: 130px;
    padding-bottom: 50px;
+   padding-left: 40px;
+    padding-right: 40px;
+}
+
+.links{
+    margin-left: -60px;
+   
 }
 
 .signUp{
