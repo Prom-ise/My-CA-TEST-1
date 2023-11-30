@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.edozzierContainer{
+   background-image: linear-gradient(
+    to left, 
+    #f6f8ff,
+    #e5e8fc
+   );
+   
+    padding-top: 130px;
+   padding-bottom: 50px;
+}
+.edozHere{
+    background-color: #d0d8fc;
+}
+.button1{
+    border-radius: 4px;
+    padding: 0.8rem 1rem;
+    background-color: #ffffff;
+    color: #161356;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+}
+.button1:hover{
+    background-color: #d0d8fc;
+}
+.button2{
+    background-color: #0e0a47;
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+}
+.button2:hover{
+    background-color: #fe9a03;
+}
+
+.edozzierContainer2{
+    margin-top: 100px;
+    background-color: #e5ebfb;
+    padding-top: 130px;
+   padding-bottom: 50px;
+}
