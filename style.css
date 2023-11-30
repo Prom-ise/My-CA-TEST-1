@@ -77,7 +77,20 @@ body{
     margin-left: -40px;
    
 }
-
+.smart{
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 44px;
+    color: rgb(27, 22, 66)
+}
+.solution{
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgb(27, 22, 66)
+}
 .signUp{
     display: none;
 }
@@ -88,10 +101,19 @@ body{
         justify-content: center;
         align-items: center;
         max-width: 50%;
-        margin-left: 100px;
+        margin-left: 90px;
     }
     .anime{
         display: none;
+    }
+    .edozHere{
+        width: 100%;
+    }
+    .div1{
+        margin-bottom: 35px;
+    }
+    .button1{
+        margin-bottom: 20px;
     }
 }
 
