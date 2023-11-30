@@ -2,18 +2,14 @@ body{
     overflow-x: hidden;
 }
 
-{
-    padding-left: 40px;
-    padding-right: 40px;
-}
 .edozzierContainer{
    background-image: linear-gradient(
     to left, 
     #f6f8ff,
-    #e5e8fc
+    #e5e8fc 
    );
    
-    padding-top: 130px;
+    padding-top: 200px;
    padding-bottom: 50px;
    padding-left: 40px;
     padding-right: 40px;
@@ -46,6 +42,14 @@ body{
     background-color: #fe9a03;
 }
 
+.bigButton2{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e0a47;
+    color: white;
+}
 .bigButton1 {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     margin: 30px;
