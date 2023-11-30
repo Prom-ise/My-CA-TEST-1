@@ -17,6 +17,9 @@ body{
 .edozHere{
     background-color: #d0d8fc;
 }
+a{
+    text-decoration: none;
+}
 .button1{
     border-radius: 4px;
     padding: 0.8rem 1rem;
@@ -28,6 +31,12 @@ body{
 }
 .button1:hover{
     background-color: #d0d8fc;
+}
+.free{
+    background-color: #0e0a47;
+    border-radius: 4px;
+    color: white;
+    border: none;
 }
 .button2{
     background-color: #0e0a47;
@@ -97,11 +106,9 @@ body{
 
 @media only screen and (max-width: 475px) {
     .edozImg{
-        display: flex;
         justify-content: center;
         align-items: center;
         max-width: 50%;
-        margin-left: 90px;
     }
     .anime{
         display: none;
@@ -115,9 +122,13 @@ body{
     .button1{
         margin-bottom: 20px;
     }
+    .cards{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .signUp{
         display: block;
     }
