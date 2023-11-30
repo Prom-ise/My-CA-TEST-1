@@ -62,6 +62,10 @@ body{
    padding-bottom: 50px;
 }
 
+.signUp{
+    display: none;
+}
+
 @media only screen and (max-width: 475px) {
     .edozImg{
         display: flex;
@@ -72,5 +76,11 @@ body{
     }
     .anime{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .signUp{
+        display: block;
     }
 }
