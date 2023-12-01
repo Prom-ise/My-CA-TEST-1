@@ -131,11 +131,36 @@ a{
         justify-content: center;
         align-items: center;
     }
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .solution{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .demo{
+        display: none;
+    }
+    .free{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .signUp{
         display: block;
+    }
+    .toggle{
+        margin-right: -60px;
+        margin-left: -10px;
     }
 }
 
